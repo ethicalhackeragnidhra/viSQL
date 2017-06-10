@@ -31,6 +31,8 @@ sql_errors = {
 
 def run(url):
 	global source
+	
+	source = ""
 
 	try:
 		source = urllib2.urlopen(url+"'", timeout=5).read()
