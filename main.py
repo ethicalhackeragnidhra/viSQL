@@ -66,6 +66,16 @@ def vprint(text, color="", type=""):
 	text =  colors['yellow'] + textTypes[type] + colors['magenta'] + "["  + time.strftime("%H:%M:%S") + "] " + colors[color] + text
 	print text
 
+def usage():
+	print colors['bright'] + colors['blue'] + """
+Usage: viSQL
+-----------------
+	$ python2 viSQL.py -t http://www.bible-history.com
+	$ python2 viSQL.py --target 54.201.8.54
+
+	$ python2 viSQL.py -h/--help
+"""
+
 def rIp(url):
 	''' A function to use src/reverseIp.py '''
 	
@@ -123,7 +133,7 @@ def sC():
 def main():
 	''' Main function '''
 
-	if len(sys.argv) == 2:
+	if len(sys.argv) == 3 and sys.argv[1] in ['-t', '--target']:
 		url = sys.argv[-1]
 
 		vprint("Target Web site: " +  url, "yellow", "info")
