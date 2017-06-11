@@ -20,7 +20,18 @@ import re
 import requests
 import urlparse
 
+
+def parameterControl(url):
+	
+    for site in sites:
+        if url.split("=")[0] in site:
+            return False
+
+    return True
+
 def run(startUrl):
+
+    global sites
 
     sites = []
     
@@ -39,11 +50,12 @@ def run(startUrl):
         if ".php?" in url:
             if url != "/":
                 if url not in sites:
-                    if baseUrl not in url:
-                        url = baseUrl + url.lstrip("/")
-                        sites.append(url)
+                    if parameterControl(url):
+                        if baseUrl not in url:
+                            url = baseUrl + url.lstrip("/")
+                            sites.append(url)
                     	
-                    else:
-                    	sites.append(url)
+                        else:
+                    	    sites.append(url)
 
     return sites

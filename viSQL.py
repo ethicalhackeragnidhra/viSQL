@@ -48,18 +48,21 @@ sitesFromCrawler  = []
 sitesFromSqliScan = []
 
 def logo():
-	print colors["bright"] + colors["blue"] + """
-        _ _____ ____    __       ______            __
- _   __(_) ___// __ \  / /      /_  __/___  ____  / /
-| | / / /\__ \/ / / / / /        / / / __ \/ __ \/ / 
-| |/ / /___/ / /_/ / / /___     / / / /_/ / /_/ / /  
-|___/_//____/\___\_\/_____/    /_/  \____/\____/_/                                                  
+	print colors["bright"] + colors["blue"] + """                                                  
+             ,,                                   
+             db   .M\"""bgd   .g8""8q. `7MMF'      
+                 ,MI    "Y .dP'    `YM. MM        
+`7M'   `MF'`7MM  `MMb.     dM'      `MM MM        
+  VA   ,V    MM    `YMMNq. MM        MM MM        
+   VA ,V     MM  .     `MM MM.      ,MP MM      , 
+    VVV      MM  Mb     dM `Mb.    ,dP' MM     ,M 
+     W     .JMML.P"Ybmmd"    `"bmmd"' .JMMmmmmMMM 
+                                 MMb              
+                                  `bood'                                                        
 
 \t\t\tVersion: %s
 \t\t\thttp://github.com/blackvkng
-\t\t\tBlack Viking - Cyber-Warrior.org
-
-"""%(__version__)
+\t\t\tBlack Viking - Cyber-Warrior.org """%(__version__)
 def vprint(text, color="", type=""):
 	''' A function to use print more impressive '''
 
