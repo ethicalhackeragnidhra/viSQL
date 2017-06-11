@@ -15,5 +15,6 @@ Scan SQL vulnerability on target site and sites of on server.
 ![alt tag](https://i.hizliresim.com/ZEW7kk.png)
 
 # Screenshot
-
 ![alt tag](https://i.hizliresim.com/BAEDPD.png)
+#### Asciinema
+[![demo](https://asciinema.org/a/124271.png)](https://asciinema.org/a/124271?autoplay=1)
