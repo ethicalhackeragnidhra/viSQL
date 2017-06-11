@@ -105,7 +105,7 @@ def crawl():
 		else:
 			pass
 
-		vprint("  Found %s url."%(len(sites)), "cyan", "info")
+		vprint("  Found %s URL to SQL scan"%(len(sites)), "cyan", "info")
 		sitesFromCrawler.append((site, sites))
 
 def sC():
