@@ -1,4 +1,5 @@
 import os
+import pip
 
 content = """
 #!/bin/bash
@@ -11,6 +12,8 @@ def main():
 	if os.name != "nt":
 		if os.getuid() == 0:
 			os.system("git clone http://github.com/blackvkng/viSQL.git /opt/viSQL")
+			for i in ["requests", "colorama"]:
+				pip.main(["install", i])
 			
 			file = open("/usr/bin/viSQL", "w")
 			file.write(content)
