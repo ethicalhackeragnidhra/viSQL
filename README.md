@@ -3,6 +3,15 @@ Scan SQL vulnerability on target site and sites of on server.
 
 # Installation
 
+### Automatic Installation
+
+```
+~$ wget https://raw.githubusercontent.com/blackvkng/viSQL/master/installer.py
+~# python2 installer.py
+```
+
+### Manuel Installation
+
 ```
 ~$ git clone https://github.com/blackvkng/viSQL.git
 ~$ cd viSQL
@@ -12,9 +21,10 @@ Scan SQL vulnerability on target site and sites of on server.
 
 # Usage
 
-![alt tag](https://i.hizliresim.com/ZEW7kk.png)
+![alt tag](http://i.hizliresim.com/ZEWv20.png)
 
 # Screenshot
-![alt tag](https://i.hizliresim.com/BAEDPD.png)
+![alt tag](http://i.hizliresim.com/1g412D.png)
+
 #### Asciinema
 [![demo](https://asciinema.org/a/124271.png)](https://asciinema.org/a/124271?autoplay=1)
