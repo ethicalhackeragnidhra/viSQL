@@ -10,7 +10,7 @@ Scan SQL vulnerability on target site and sites of on server.
 ~# python2 installer.py
 ```
 
-### Manuel Installation
+### Manual Installation
 
 ```
 ~$ git clone https://github.com/blackvkng/viSQL.git
