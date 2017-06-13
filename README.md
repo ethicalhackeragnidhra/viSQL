@@ -8,6 +8,8 @@ Scan SQL vulnerability on target site and sites of on server.
 ```
 ~$ wget https://raw.githubusercontent.com/blackvkng/viSQL/master/installer.py
 ~# python2 installer.py
+~$ # Type "viSQL" to use tool.
+~$ viSQL
 ```
 
 ### Manual Installation
