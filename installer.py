@@ -25,7 +25,7 @@ def main():
 		else:
 			print "Run as root!"
 	else:
-		print "This script don't work on Windows!"
+		print "This script doesn't work on Windows!"
 
 if __name__ == "__main__":
 	main()
