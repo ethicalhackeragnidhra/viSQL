@@ -1,6 +1,9 @@
 # viSQL
 Scan SQL vulnerability on target site and sites of on server.
 
+#### Pre-installed System(s)
+![black arch](https://raw.githubusercontent.com/BlackArch/blackarch-artwork/master/logo/logo-38-49.png)
+
 # Installation
 
 ### Automatic Installation
@@ -23,10 +26,10 @@ Scan SQL vulnerability on target site and sites of on server.
 
 # Usage
 
-![alt tag](http://i.hizliresim.com/ZEWv20.png)
+![viSQL](http://i.hizliresim.com/ZEWv20.png)
 
 # Screenshot
-![alt tag](http://i.hizliresim.com/1g412D.png)
+![viSQL](http://i.hizliresim.com/1g412D.png)
 
 #### Asciinema
 [![demo](https://asciinema.org/a/124271.png)](https://asciinema.org/a/124271?autoplay=1)
