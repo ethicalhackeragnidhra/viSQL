@@ -64,6 +64,7 @@ def logo():
 \t\t\thttp://github.com/blackvkng
 \t\t\tBlack Viking - Cyber-Warrior.org 
 """%(__version__)
+
 def vprint(text, color="", type=""):
 	''' A function to use print more impressive '''
 
